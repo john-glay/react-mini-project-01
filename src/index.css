@@ -1,0 +1,95 @@
+:root {
+    /* Colors */
+    --purple-color: #722DF9;
+    --darker-purple: #421C8C;
+    --light-gray: #E9E6E5BA;
+    --white-color: #ffffff;
+
+    /* Box Shadow */
+    --box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Global */
+.name, 
+.title, 
+.icon,
+.services-content:hover i {
+    color: var(--purple-color);
+}
+
+.active, 
+.sub,
+.btn-under,
+.work-logo,
+.contact ::placeholder {
+    color: var(--darker-purple);
+}
+
+.services-content:hover h4, 
+.services-content:hover p,
+.services-content i,
+.under-sub, 
+.under-p,
+.btn-under:hover {
+    color: var(--white-color);
+}
+
+.navbar-nav li a:hover {
+    color: var(--darker-purple);
+}
+
+.offcanvas, 
+.oncanvas, 
+.logo, 
+.btn-home, 
+.progress-bar, 
+.circle, 
+.services-content:hover,
+.btn-contact {
+    background-color: var(--purple-color);
+}
+
+.logo:hover, 
+.btn-home:hover, 
+.line,
+.under,
+.btn-under:hover,
+.btn-contact:hover {
+    background-color: var(--darker-purple);
+}
+
+.contact-form {
+    background-color: var(--light-gray);
+}
+
+.services-content:hover i,
+.btn-under {
+    background-color: var(--white-color);
+}
+
+.navbar-nav li a:hover,
+.profile-pic img, 
+.logo, 
+.btn-home, 
+.about-pic img, 
+.services-content, 
+.services-content h4, 
+.services-content p,
+.services-content i,
+.btn-under,
+.works-data {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+.pages {
+    height: 100vh;
+    margin-top: 78px;
+ }
+
+ .max-row {
+    max-width: 976.5px;
+ }

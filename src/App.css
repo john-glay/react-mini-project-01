@@ -1,0 +1,104 @@
+/* Navigation Bar */
+.navigation {
+    z-index: 1;
+}
+.navbar-nav li a {
+    color: var(--white-color);
+}
+
+/* Homepage */
+.profile-pic {
+    margin: auto auto;
+    height: 230px;
+    width: 230px;
+    border: 6px solid white; 
+    box-shadow: var(--box-shadow);
+}
+
+.profile-pic:hover img {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.profile-pic img {
+    height: 230px;
+    width: 230px;
+}
+
+/* About Page */
+.about-pic {
+    margin: auto auto;
+    height: 330px;
+    width: 230px;
+    border: 6px solid white; 
+    box-shadow: var(--box-shadow);
+}
+.about-pic:hover img {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.about-pic img {
+    height: 330px;
+    width: 230px;
+}
+
+/* Skills Page */
+.line {
+    width: 5px;
+}
+
+.circle-border {
+    height: 25px;
+    width: 25px;
+    border: 2px solid var(--purple-color);
+    left: -10px;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    left: 15%;
+    bottom: 12%;
+}
+
+/* Services Page */
+.services-content {
+    border: 2px solid var(--purple-color);
+}
+
+.under-p {
+    max-width: 550px;
+}
+
+.btn-under {
+    border: 2px solid white;
+    max-width: 300px;
+}
+
+/* Works Page */
+.works-pic {
+    height: 279px;
+    border: 6px solid white; 
+    box-shadow: var(--box-shadow);
+}
+
+.works-pic img {
+    height: 279px;
+    margin: auto auto;
+    display: block;
+}
+
+.works-data {
+    bottom: -101%;
+    background-color: rgba(66, 28, 140, .7);
+}
+
+.works-pic:hover .works-data {
+    bottom: 0;
+}
+
+/* Contact Page */
+.message {
+    height: 186px;
+}
