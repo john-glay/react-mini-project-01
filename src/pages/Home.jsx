@@ -1,5 +1,12 @@
 import React from "react";
 import profile from "./images/profile.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faGithub,
+  faInstagram,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Home() {
   return (
@@ -15,23 +22,35 @@ function Home() {
         <p className="text-center fs-6 fw-bold m-0">Developer</p>
 
         <div className="d-flex justify-content-evenly mt-5">
-          <a href="#" className="logo text-white rounded-circle">
-            <i className="p-3 fs-6 fa-brands fa-linkedin-in"></i>
+          <a href="https://www.github.com">
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="p-3 fs-6 logo text-white rounded-circle"
+            />
           </a>
-          <a href="#" className="logo text-white rounded-circle">
-            <i className="p-3 fs-6 fa-brands fa-github"></i>
+          <a href="https://www.twitter.com">
+            <FontAwesomeIcon
+              icon={faTwitter}
+              className="p-3 fs-6 logo text-white rounded-circle"
+            />
           </a>
-          <a href="#" className="logo text-white rounded-circle">
-            <i className="p-3 fs-6 fa-brands fa-instagram"></i>
+          <a href="https://www.instagram.com">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="p-3 fs-6 logo text-white rounded-circle"
+            />
           </a>
-          <a href="#" className="logo text-white rounded-circle">
-            <i className="p-3 fs-6 fa-brands fa-facebook"></i>
+          <a href="https://www.facebook.com">
+            <FontAwesomeIcon
+              icon={faFacebook}
+              className="p-3 fs-6 logo text-white rounded-circle"
+            />
           </a>
         </div>
 
         <button
           type="button"
-          className="btn btn-home text-white w-100 mt-5 pt-3 pb-3 fw-bold"
+          className="btn-home text-white w-100 mt-5 pt-3 pb-3 fw-bold border-0 rounded-2"
         >
           Download Resume
         </button>

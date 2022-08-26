@@ -13,7 +13,7 @@
 .name, 
 .title, 
 .icon,
-.services-content:hover i {
+.services-content:hover .logo {
     color: var(--purple-color);
 }
 
@@ -27,7 +27,7 @@
 
 .services-content:hover h4, 
 .services-content:hover p,
-.services-content i,
+.services-content .logo,
 .under-sub, 
 .under-p,
 .btn-under:hover {
@@ -62,7 +62,7 @@
     background-color: var(--light-gray);
 }
 
-.services-content:hover i,
+.services-content:hover .logo,
 .btn-under {
     background-color: var(--white-color);
 }
@@ -75,7 +75,7 @@
 .services-content, 
 .services-content h4, 
 .services-content p,
-.services-content i,
+.services-content .logo,
 .btn-under,
 .works-data {
     transition: all 0.3s ease-in-out;

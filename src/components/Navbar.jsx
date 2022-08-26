@@ -3,19 +3,19 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav>
-      <div
-        className="navigation p-0 m-0 position-fixed bg-white w-100 justify-content-between"
-      >
+      <div className="navigation p-0 m-0 position-fixed bg-white w-100 justify-content-between">
         <div className="navbar p-4 d-lg-none">
           <button
             className="navbar-toggler p-0 border-0 ms-3"
             type="button"
             data-bs-toggle="offcanvas"
-            href="#offcanvas"
+            href="offcanvas"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <a className="navbar-brand fs-5 fw-bolder p-0 me-3" href="index.html">John Glay</a>
+          <a className="navbar-brand fs-5 fw-bolder p-0 me-3" href="/">
+            John Glay
+          </a>
         </div>
       </div>
 
@@ -36,16 +36,13 @@ const Navbar = () => {
         <div className="offcanvas-body">
           <ul className="navbar-nav p-4">
             <li className="nav-item mb-4">
-              <a
-                href="index.html"
-                className="text-decoration-none fw-bolder d-block"
-              >
-                <span className="active">HOME</span>
+              <a href="/" className="text-decoration-none fw-bolder d-block">
+                HOME
               </a>
             </li>
             <li className="nav-item mb-4">
               <a
-                href="about.html"
+                href="/about"
                 className="text-decoration-none fw-bolder d-block"
               >
                 ABOUT
@@ -53,7 +50,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item mb-4">
               <a
-                href="skills.html"
+                href="/skills"
                 className="text-decoration-none fw-bolder d-block"
               >
                 SKILLS
@@ -61,7 +58,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item mb-4">
               <a
-                href="services.html"
+                href="/services"
                 className="text-decoration-none fw-bolder d-block"
               >
                 SERVICES
@@ -69,7 +66,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item mb-4">
               <a
-                href="works.html"
+                href="/works"
                 className="text-decoration-none fw-bolder d-block"
               >
                 WORKS
@@ -77,7 +74,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a
-                href="contact.html"
+                href="/contact"
                 className="text-decoration-none fw-bolder d-block"
               >
                 CONTACT ME
@@ -87,22 +84,17 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div
-        className="oncanvas h-100 w-25 container-lg p-0 d-none d-lg-block d-print-block position-fixed"
-      >
+      <div className="oncanvas h-100 w-25 container-lg p-0 d-none d-lg-block d-print-block position-fixed">
         <div className="d-flex align-items-center h-100 w-100 p-5">
           <ul className="navbar-nav flex-column">
             <li className="nav-item mb-4">
-              <a
-                href="index.html"
-                className="text-decoration-none fw-bolder d-block"
-              >
-                <span className="active">HOME</span>
+              <a href="/" className="text-decoration-none fw-bolder d-block">
+                HOME
               </a>
             </li>
             <li className="nav-item mb-4">
               <a
-                href="about.html"
+                href="/about"
                 className="text-decoration-none fw-bolder d-block"
               >
                 ABOUT
@@ -110,7 +102,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item mb-4">
               <a
-                href="skills.html"
+                href="/skills"
                 className="text-decoration-none fw-bolder d-block"
               >
                 SKILLS
@@ -118,7 +110,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item mb-4">
               <a
-                href="services.html"
+                href="/services"
                 className="text-decoration-none fw-bolder d-block"
               >
                 SERVICES
@@ -126,7 +118,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item mb-4">
               <a
-                href="works.html"
+                href="/works"
                 className="text-decoration-none fw-bolder d-block"
               >
                 WORKS
@@ -134,7 +126,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a
-                href="contact.html"
+                href="/contact"
                 className="text-decoration-none fw-bolder d-block"
               >
                 CONTACT ME
