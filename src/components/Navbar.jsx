@@ -9,7 +9,7 @@ const Navbar = () => {
             className="navbar-toggler p-0 border-0 ms-3"
             type="button"
             data-bs-toggle="offcanvas"
-            href="offcanvas"
+            href="#offcanvas"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
