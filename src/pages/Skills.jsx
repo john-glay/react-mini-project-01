@@ -17,7 +17,7 @@ function Skills() {
                 <p className="m-0 fw-semibold">80%</p>
               </div>
               <div className="progress mt-2">
-                <div className="progress-bar" style={{ width: "80%" }}></div>
+                <div className="progress-bar" id="progress-bar" style={{ width: "80%" }}></div>
               </div>
             </div>
             <div className="pt-3 pt-lg-4 ps-md-4">
@@ -26,7 +26,7 @@ function Skills() {
                 <p className="m-0 fw-semibold">20%</p>
               </div>
               <div className="progress mt-2">
-                <div className="progress-bar" style={{ width: "20%" }}></div>
+                <div className="progress-bar" id="progress-bar" style={{ width: "20%" }}></div>
               </div>
             </div>
             <div className="pt-3 pt-lg-4 ps-md-4">
@@ -35,7 +35,7 @@ function Skills() {
                 <p className="m-0 fw-semibold">10%</p>
               </div>
               <div className="progress mt-2">
-                <div className="progress-bar" style={{ width: "10%" }}></div>
+                <div className="progress-bar" id="progress-bar" style={{ width: "10%" }}></div>
               </div>
             </div>
             <div className="pt-3 pt-lg-4 ps-md-4">
@@ -44,7 +44,7 @@ function Skills() {
                 <p className="m-0 fw-semibold">0%</p>
               </div>
               <div className="progress mt-2">
-                <div className="progress-bar" style={{ width: "0%" }}></div>
+                <div className="progress-bar" id="progress-bar" style={{ width: "0%" }}></div>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ function Skills() {
                 <p className="m-0 fw-semibold">0%</p>
               </div>
               <div className="progress mt-2">
-                <div className="progress-bar" style={{ width: "0%" }}></div>
+                <div className="progress-bar" id="progress-bar" style={{ width: "0%" }}></div>
               </div>
             </div>
             <div className="pt-3 pt-lg-4 ps-md-4">
@@ -65,7 +65,7 @@ function Skills() {
                 <p className="m-0 fw-semibold">0%</p>
               </div>
               <div className="progress mt-2">
-                <div className="progress-bar" style={{ width: "0%" }}></div>
+                <div className="progress-bar" id="progress-bar" style={{ width: "0%" }}></div>
               </div>
             </div>
             <div className="pt-3 pt-lg-4 ps-md-4">
@@ -74,7 +74,7 @@ function Skills() {
                 <p className="m-0 fw-semibold">0%</p>
               </div>
               <div className="progress mt-2">
-                <div className="progress-bar" style={{ width: "0%" }}></div>
+                <div className="progress-bar" id="progress-bar" style={{ width: "0%" }}></div>
               </div>
             </div>
             <div className="pt-3 pt-lg-4 ps-md-4">
@@ -83,7 +83,7 @@ function Skills() {
                 <p className="m-0 fw-semibold">0%</p>
               </div>
               <div className="progress mt-2">
-                <div className="progress-bar" style={{ width: "0%" }}></div>
+                <div className="progress-bar" id="progress-bar" style={{ width: "0%" }}></div>
               </div>
             </div>
           </div>
